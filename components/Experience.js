@@ -14,7 +14,7 @@ export default function Experience() {
       <div className=" flex flex-wrap justify-around">
         <div className="w-[500px] h-72 p-4 my-4 text-white bg-primary sm:w-[300px] sm:h-fit sm:text-sm">
           <div>
-            <a href="https://das-360.com/en/" target="_blank" rel="noopener">
+            <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
               <Image
                 alt="das360 logo"
                 src={das}
@@ -36,7 +36,7 @@ export default function Experience() {
 
         <div className="w-[500px] h-72 p-4 my-4 text-white bg-primary sm:w-[300px] sm:h-fit sm:text-sm">
           <div>
-            <a href="https://das-360.com/en/" target="_blank" rel="noopener">
+            <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
               <Image
                 alt="codi_tech logo"
                 src={codi}
@@ -52,7 +52,7 @@ export default function Experience() {
           <p className="px-2 text-justify leading-7 ">
             Full Stack Web Development Bootcamp, you have to be a self_leaener,
             a leader and an effective team member by management your projects
-            with 'AGILE methodology' and React, Bootstrap,
+            with &apos;AGILE methodology&apos; and React, Bootstrap,
             Nodejs, Expressjs, MongoDB, SQL and Laralvel 
           </p>
         </div>
