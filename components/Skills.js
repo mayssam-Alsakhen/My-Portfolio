@@ -28,7 +28,7 @@ export default function Skills() {
             width={75}
             height={10}
             alt="html"
-            className="mb-11 sm:w-14 sm:mb-14"
+            className="mb-11 sm:w-14 sm:mb-14 hover:animate-pulse"
           />
           <p className=" text-secondary font-bold text-xl">HTML</p>
         </div>
@@ -38,7 +38,7 @@ export default function Skills() {
             width={75}
             height={10}
             alt="css"
-            className="mb-11 sm:w-14 sm:mb-14"
+            className="mb-11 sm:w-14 sm:mb-14 hover:animate-bounce"
           />
           <p className=" text-secondary font-bold text-xl">CSS</p>
         </div>
@@ -58,7 +58,7 @@ export default function Skills() {
             width={75}
             height={10}
             alt="react"
-            className="mb-11 sm:w-14 sm:mb-14"
+            className="mb-11 sm:w-14 sm:mb-14 hover:animate-ping "
           />
           <p className=" text-secondary font-bold text-xl">React</p>
         </div>
@@ -68,7 +68,7 @@ export default function Skills() {
             width={85}
             height={10}
             alt="next"
-            className=" mb-10 sm:w-16 sm:mb-[53px]"
+            className=" mb-10 sm:w-16 sm:mb-[53px] hover:animate-spin"
           />
           <p className=" text-secondary font-bold text-xl">NextJs</p>
         </div>

@@ -1,7 +1,15 @@
 function About() {
   return (
-    <div className="bg-[url('../public/h.jpg')] bg-cover bg-bottom bg-no-repeat bg-fixed ">
-      <div className=" bg-zinc-300 bg-opacity-50">
+    <div
+    //  className="bg-[url('../public/h.jpg')] bg-cover bg-bottom bg-no-repeat bg-fixed "
+     >
+       <h1
+        id="skills"
+        className="text-center py-3 text-5xl font-bold text-primary"
+      >
+        About me
+      </h1>
+      <div>
       <div className=" w-[80%] mx-auto text-justify text-xl leading-9 py-5 font-semibold " >
         Hello! My name is Mayssam I am full stack web developer. Currently I am
         a Computer Science student at Lebanese International University (LIU); I
