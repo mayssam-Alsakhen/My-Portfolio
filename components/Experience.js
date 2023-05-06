@@ -3,7 +3,7 @@ import das from "../public/das.png";
 import codi from "../public/codi.png";
 export default function Experience() {
   return (
-    <div className=" bg-secondary py-9">
+    <div className=" my-14">
       <h1
         id="experience"
         className="text-center py-3 text-5xl font-bold text-primary"
@@ -12,7 +12,7 @@ export default function Experience() {
       </h1>
 
       <div className=" flex flex-wrap justify-around">
-        <div className="w-[500px] h-72 p-4 my-4 text-white bg-primary sm:w-[300px] sm:h-fit sm:text-sm">
+        <div className="w-[500px] h-72 p-4 my-4 text-black bg-secondary sm:w-[300px] sm:h-fit sm:text-sm">
           <div>
             <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
               <Image
@@ -34,7 +34,7 @@ export default function Experience() {
           </p>
         </div>
 
-        <div className="w-[500px] h-72 p-4 my-4 text-white bg-primary sm:w-[300px] sm:h-fit sm:text-sm">
+        <div className="w-[500px] h-72 p-4 my-4 text-black bg-secondary sm:w-[300px] sm:h-fit sm:text-sm">
           <div>
             <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
               <Image

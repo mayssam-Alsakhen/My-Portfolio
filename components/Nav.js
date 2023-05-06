@@ -1,4 +1,4 @@
-import logo from '../public/Logod.png'
+import logo from '../public/Logo.png'
 import menu from '../public/menu.svg'
 import close from '../public/close.svg'
 import Image from 'next/image'
