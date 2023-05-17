@@ -9,7 +9,7 @@ function About() {
       </div>
 
       <h1
-        id="skills"
+        id="about"
         className="text-center py-3 text-5xl font-bold text-primary"
       >
         About me
