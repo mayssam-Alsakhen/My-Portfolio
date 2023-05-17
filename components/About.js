@@ -16,7 +16,7 @@ function About() {
       </h1>
       <div>
         <div className=" w-[80%] mx-auto text-justify text-2xl leading-10 py-5 font-semibold ">
-          Hello! My name is Mayssam I am full stack web developer. Currently I
+          Hello! My name is Mayssam I am a full stack web developer. Currently, I
           am a Computer Science student at Lebanese International University
           (LIU); I enjoy all the little details of programming and coding. My
           passion for coding started from reading articles about programming to

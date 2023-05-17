@@ -71,7 +71,7 @@ export default function Skills() {
             alt="next"
             className=" mb-10 sm:w-16 sm:mb-[53px]"
           />
-          <p className=" text-black font-bold text-xl">NextJs</p>
+          <p className=" text-black font-bold text-xl">Next Js</p>
         </div>
         <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-end items-center sm:w-[187px] sm:h-52 sm:bg-contain">
           <Image

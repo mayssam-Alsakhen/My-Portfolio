@@ -10,7 +10,7 @@ export default function Projects() {
 
       <div className=" flex flex-wrap justify-around text-black ">
         <div className=" flex items-center m-4">
-          <div className="w-32 h-32 bg-[url('../public/m&f.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div>
+        <a href="https://drive.google.com/file/d/18gTLqI9tFBD89-NaJ4tMIxJ37yYRUJyX/view?usp=sharing" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/m&f.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
           <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
             <p className=" font-bold leading-4">Missed and Found</p>
             <p className=" text-xs pb-2"> August 2022</p>
@@ -22,7 +22,7 @@ export default function Projects() {
         </div>
 
         <div className=" flex items-center m-4">
-          <div className="w-32 h-32 bg-[url('../public/retouch.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div>
+         <a href="https://retouch.vercel.app/" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/retouch.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
           <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
             <p className=" font-bold leading-4">Retouch</p>
             <p className=" text-xs pb-2">July 2022</p>
@@ -34,7 +34,7 @@ export default function Projects() {
         </div>
 
         <div className=" flex items-center m-4">
-          <div className="w-32 h-32 bg-[url('../public/oakraft.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div>
+        <a href="https://kitchen-tau.vercel.app/" target="_blank" rel="noreferrer" className=" z-10" ><div className="w-32 h-32 bg-[url('../public/oakraft.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
           <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
             <p className=" font-bold leading-4">Aokcraft</p>
             <p className=" text-xs pb-2">June 2022</p>
@@ -46,7 +46,7 @@ export default function Projects() {
         </div>
 
         <div className=" flex items-center m-4">
-          <div className="w-32 h-32 bg-[url('../public/foodoption.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div>
+        <a href="https://food-options.vercel.app/" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/foodoption.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
           <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
             <p className=" font-bold leading-4">Food Options</p>
             <p className=" text-xs pb-2"> June 2022</p>

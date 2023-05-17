@@ -36,7 +36,7 @@ export default function Experience() {
 
         <div className="w-[500px] h-72 p-4 my-4 text-black bg-secondary sm:w-[300px] sm:h-fit sm:text-sm">
           <div>
-            <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/school/codi.tech/" target="_blank" rel="noreferrer">
               <Image
                 alt="codi_tech logo"
                 src={codi}
@@ -52,7 +52,7 @@ export default function Experience() {
           <p className="px-2 text-justify leading-7 ">
             Full Stack Web Development Bootcamp, you have to be a self_leaener,
             a leader and an effective team member by management your projects
-            with &apos;AGILE methodology&apos; and React, Bootstrap,
+            with &apos;AGILE methodology&apos;; Technologies we used React, Bootstrap,
             Nodejs, Expressjs, MongoDB, SQL and Laralvel 
           </p>
         </div>
