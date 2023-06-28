@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import life from '../public/life.jpeg'
-// import nas from '../public/nas.jpg'
 
 export default function Volunteering() {
   return (
