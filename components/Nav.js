@@ -8,7 +8,7 @@ function Nav() {
     const [Menu, setMenu] = useState(false)
     return (
         <div>
-        <nav className=" px-12 w-full h-[70px] bg-primary flex justify-between items-center">
+        <nav className=" px-12 w-full h-[70px] bg-primary flex justify-between items-center sm:px-3">
             <div className=' h-full w-[70px]'>
                 <Image src={logo} alt='logo' height="0" width="0"  />
             </div>

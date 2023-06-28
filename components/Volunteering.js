@@ -8,7 +8,7 @@ export default function Volunteering() {
         Volunteerig
       </h1>
       <div className='flex flex-wrap justify-around text-black'>
-      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary">
+      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary md:px-10">
         <p className="text-3xl font-bold mb-3"> Data Base</p>
         <div className='flex justify-center mb-2'><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"><Image src={life} width={80} height={10} alt='life sculptor' className="rounded-full border-primary border-2"/></a></div>
         <p className="text-xl mb-1"><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"> Life Sculptor </a></p>
@@ -16,7 +16,7 @@ export default function Volunteering() {
         <p className=' text-lg'>Checking the database if it is updated and add the new students.</p>
       </div>
 
-      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary">
+      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary md:px-10">
         <p className="text-3xl font-bold mb-3"> Monitor </p>
         <div className='flex justify-center mb-2'><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"><Image src={life} width={80} height={10} alt='life sculptor' className="rounded-full border-primary border-2"/></a></div>
         <p className="text-xl mb-1"><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"> Life Sculptor </a></p>
@@ -24,7 +24,7 @@ export default function Volunteering() {
         <p className=' text-lg'>Monitoring a session by taking the attendance and ensuring the logistical matters during the session.</p>
       </div>
 
-      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary sm:h-[420px]">
+      <div className="my-10 w-80 h-96 p-12 rounded-t-full bg-[url('../public/vvbg.jpg')] bg-cover bg-center text-center border-2 border-primary md:px-10">
         <p className="text-3xl font-bold mb-3">Tech & Devlopment</p>
         <div className='flex justify-center mb-2'><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"><Image src={life} width={80} height={10} alt='life sculptor' className="rounded-full border-primary border-2"/></a></div>
         <p className="text-xl mb-1"><a href="https://life-sculptor.netlify.app/" target="_blank" rel="noreferrer"> Life Sculptor </a></p>

@@ -98,7 +98,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="w-1/2 h-fit mx-auto bg-secondary mt-[-30px] p-10 md:w-11/12 sm:p-3 sm:mt-[-10px]">
+      <div className="w-1/2 h-fit mx-auto bg-secondary mt-[-30px] p-10 md:w-11/12 sm:px-3 sm:py-5 sm:mt-[-10px]">
         <form ref={form} onSubmit={sendEmail} className="flex flex-col justify-around">
           <input
             name="name"
@@ -126,7 +126,7 @@ export default function Contact() {
             rows={4}
             className="outline-none placeholder:text-primary p-1 bg-transparent border-primary border-b-[1px] mb-3"
           />
-          <button type="submit" className="bg-primary text-white font-bold w-1/4 mx-auto py-2">Send</button>
+          <button type="submit" className="bg-primary text-white font-bold w-40 mx-auto py-2">Send</button>
         </form>
       </div>
     </div>

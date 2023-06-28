@@ -1,8 +1,8 @@
 function About() {
   return (
     <div>
-      <div className="w-full h-[523px] bg-[url('../public/about.png')] bg-cover bg-center bg-no-repeat">
-        <p className=" text-primary font-bold text-4xl w-[57%] h-full text-center flex justify-center items-center">
+      <div className="w-full h-[523px] bg-[url('../public/about.png')] bg-cover bg-center bg-no-repeat sm:h-64">
+        <p className=" text-primary font-bold text-4xl w-[57%] h-full text-center flex justify-center items-center sm:text-2xl sm:w-[73%]">
           Hello ... <br /> I am Mayssam <br />
           Full Stack Developper
         </p>
@@ -15,7 +15,7 @@ function About() {
         About me
       </h1>
       <div>
-        <div className=" w-[80%] mx-auto text-justify text-2xl leading-10 py-5 font-semibold ">
+        <div className=" w-[80%] mx-auto text-justify text-2xl leading-10 py-5 font-semibold sm:text-lg sm:leading-6 sm:w-[90%]">
           Hello! My name is Mayssam I am a full stack web developer. Currently, I
           am a Computer Science student at Lebanese International University
           (LIU); I enjoy all the little details of programming and coding. My
