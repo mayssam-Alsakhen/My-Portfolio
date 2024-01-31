@@ -14,6 +14,58 @@ import git from "../public/git.svg";
 import tailwind from "../public/tailwind.svg";
 
 export default function Skills() {
+  const skills = [
+    {
+      id: 1,
+      title: "HTML",
+      image: html,
+    },
+    {
+      id: 2,
+      title: "CSS",
+      image: css,
+    },
+    {
+      id: 3,
+      title: "JavaScript",
+      image: js,
+    },
+    {
+      id: 4,
+      title: "React",
+      image: react,
+    },
+    {
+      id: 5,
+      title: "NextJs",
+      image: next,
+    },
+    {
+      id: 6,
+      title: "NodeJs",
+      image: node,
+    },
+    {
+      id: 7,
+      title: "Express.js",
+      image: express,
+    },
+    {
+      id: 8,
+      title: "Laravel",
+      image: laravel,
+    },
+    {
+      id: 9,
+      title: "MySQL",
+      image: sql,
+    },
+    {
+      id: 10,
+      title: "MongoDB",
+      image: mongo,
+    },
+  ];
   return (
     <div className=" bg-secondary my-14">
       <h1
@@ -23,136 +75,21 @@ export default function Skills() {
         Skills
       </h1>
       <div className="flex flex-wrap justify-center ">
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={html}
-            width={75}
-            height={10}
-            alt="html"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">HTML</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={css}
-            width={75}
-            height={10}
-            alt="css"
-            className="mb-11 sm:w-[50px] sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">CSS</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={js}
-            width={75}
-            height={10}
-            alt="js"
-            className="mb-11 sm:w-[50px] sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">JavaScript</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={react}
-            width={75}
-            height={10}
-            alt="react"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">React</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={next}
-            width={85}
-            height={10}
-            alt="next"
-            className=" mb-10 sm:w-12 sm:mb-[35]"
-          />
-          <p className=" text-black font-bold text-xl">Next Js</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={node}
-            width={75}
-            height={10}
-            alt="node"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Node Js</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={express}
-            width={75}
-            height={10}
-            alt="express"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Express JS</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={laravel}
-            width={80}
-            height={10}
-            alt="laravel"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Laravel</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={sql}
-            width={80}
-            height={10}
-            alt="sql"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">MySQL</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={mongo}
-            width={75}
-            height={10}
-            alt="mongo"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Mongo DB</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={mui}
-            width={75}
-            height={10}
-            alt="mui"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Material UI</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={tailwind}
-            width={75}
-            height={10}
-            alt="tailwind"
-            className="mb-11 sm:w-14 sm:mb-[35px]"
-          />
-          <p className=" text-black font-bold text-xl">Tailwind Css</p>
-        </div>
-        <div className="bg-[url('../public/heart.svg')] bg-cover bg-no-repeat w-64 h-60 flex flex-col justify-center items-center sm:w-[150px] sm:h-52 sm:bg-contain">
-          <Image
-            src={git}
-            width={75}
-            height={10}
-            alt="github"
-            className="mb-11 sm:w-12 sm:mb-[30px]"
-          />
-          <p className=" text-black font-bold text-xl">Git</p>
-        </div>
+        {skills.map((skill) => (
+          <div
+            key={skill.id}
+            className="transition ease-in-out delay-150 hover:-translate-y-4 hover:scale-110 duration-300 bg-[url('../public/heart.svg')] bg-cover bg-center w-64 h-72 flex flex-col justify-center items-center"
+          >
+            <Image
+              src={skill.image}
+              width={75}
+              height={10}
+              alt="html"
+              className=""
+            />
+            <p className=" text-black font-bold text-xl">{skill.title}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
