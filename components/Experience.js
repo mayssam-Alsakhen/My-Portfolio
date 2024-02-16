@@ -82,7 +82,7 @@ export default function Experience() {
       </h1>
       <div className="my-10 flex flex-wrap justify-around cards">
 {/* start */}
-{experinces.map((e, index)=> 
+{experinces.map((e)=> 
       <div key={e.id} className=" w-[500px] h-80 relative mt-14 sm:mx-5 sm:h-[420px] mb-10">
         <div className=" z-50 border-b-4 border-primary bg-white border-x w-36 h-36 rounded-full absolute left-44 top-[-50px] sm:left-[33%] sm:w-32 sm:h-32">
     <Link href={e.link} target="blank">  <div className=" w-full h-full rounded-full bg-contain bg-no-repeat bg-center" style={{backgroundImage:`url(${e.img})`}}></div></Link>  
@@ -98,55 +98,6 @@ export default function Experience() {
       </div>
       )}
 {/* end */}
-
-        {/* <div className=" w-[500px] h-72 p-4 my-4 text-black bg-secondary sm:w-[300px] sm:h-fit sm:text-sm">
-          <div>
-            <a href="https://das-360.com/en/" target="_blank" rel="noreferrer">
-              <Image
-                alt="das360 logo"
-                src={das}
-                width={150}
-                height={100}
-                className="mx-auto"
-              />
-              <p className="font-bold text-center">DAS360</p>
-            </a>
-            <p className=" text-xs text-center">May 2022 - Jul 2022</p>
-          </div>
-          <hr className="w-5/6 mx-auto m-3 border-[1px] border-secondary "></hr>
-          <p className="px-2 text-justify leading-7 ">
-            Work as a Front-end developer building websites using Nextjs and
-            TailwindCss, and improve search engine optimization (SEO) of the
-            website through lighthouse.
-          </p>
-        </div>
-
-        <div className="w-[500px] h-72 p-4 my-4 text-black bg-secondary sm:w-[300px] sm:h-fit sm:text-sm">
-          <div>
-            <a
-              href="https://www.linkedin.com/school/codi.tech/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                alt="codi_tech logo"
-                src={codi}
-                width={150}
-                height={100}
-                className="mx-auto"
-              />
-              <p className="font-bold text-center">Codi_Tech</p>
-            </a>
-            <p className=" text-xs text-center">Nov 2021 - Aug 2022</p>
-          </div>
-          <hr className="w-5/6 mx-auto m-3 border-[1px] border-secondary "></hr>
-          <p className="px-2 text-justify leading-7 ">
-            Full Stack Web Development Bootcamp, you have to be a self_leaener,
-            a leader and an effective team member by management your projects
-            with &apos;AGILE methodology&apos;; Technologies we used React,
-            Bootstrap, Nodejs, Expressjs, MongoDB, SQL and Laralvel
-          </p>
-        </div> */}
       </div>
     </div>
   );
