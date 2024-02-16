@@ -67,7 +67,7 @@ export default function Skills() {
     },
   ];
   return (
-    <div className=" bg-secondary my-14">
+    <div className="my-32">
       <h1
         id="skills"
         className="text-center py-3 text-5xl font-bold text-primary"

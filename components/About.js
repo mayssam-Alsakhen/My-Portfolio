@@ -1,7 +1,7 @@
 function About() {
   return (
     <div>
-      <div className="w-full h-[523px] bg-[url('../public/about.png')] bg-cover bg-center bg-no-repeat sm:h-64">
+      <div className="w-full h-[570px] md:h-[450px] bg-[url('../public/about.png')] bg-cover bg-center  bg-no-repeat sm:h-64">
         <p className=" text-primary font-bold text-4xl w-[57%] h-full text-center flex justify-center items-center sm:text-2xl sm:w-[73%]">
           Hello ... <br /> I am Mayssam <br />
           Full Stack Developper
@@ -10,7 +10,7 @@ function About() {
 
       <h1
         id="about"
-        className="text-center py-3 text-5xl font-bold text-primary"
+        className="text-center py-3 text-5xl font-bold text-primary mt-20" 
       >
         About me
       </h1>

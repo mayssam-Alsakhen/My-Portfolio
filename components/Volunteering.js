@@ -3,7 +3,7 @@ import life from '../public/life.jpeg'
 
 export default function Volunteering() {
   return (
-    <div className=" my-14">
+    <div className=" my-32">
        <h1 id="volunteer" className="text-center py-3 text-5xl font-bold text-primary">
         Volunteerig
       </h1>

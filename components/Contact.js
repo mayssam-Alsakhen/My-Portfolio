@@ -23,15 +23,16 @@ export default function Contact() {
   };
 
   return (
-    <div className=" my-14">
+    <div className="bg-[url('../public/contact.avif')] bg-cover bg-center mt-32">
+      <div className="bg-black/60 w-full h-full">
       <h1
         id="contact"
-        className="text-center py-3 text-5xl font-bold text-primary"
+        className="text-center py-7 text-5xl font-bold text-primary"
       >
         Contact me
       </h1>
-      <div className=" w-3/4 mx-auto flex flex-wrap justify-evenly">
-        <div className=" w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full ">
+      <div className=" w-3/4 mx-auto flex flex-wrap justify-evenly mt-7">
+        <div className=" text-white w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full ">
           <a href="https://wa.me/+96181575855" target="_blank" rel="noreferrer">
             {" "}
             <Image src={whats} alt="whatsapp" width={0} height={0} />
@@ -43,7 +44,7 @@ export default function Contact() {
           <p className=" text-center md:hidden"> Contact me on :+961-81575855</p>
         </div>
 
-        <div className=" w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
+        <div className="text-white w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
           <a
             href="https://www.linkedin.com/in/mayssam-alsakhen/"
             target="_blank"
@@ -63,7 +64,7 @@ export default function Contact() {
           <p className=" text-center md:hidden"> Take a look of my profile on linkedin</p>
         </div>
 
-        <div className=" w-44 h-44 bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
+        <div className="text-white w-44 h-44 bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
           <a
             href="https://github.com/mayssam-Alsakhen"
             target="_blank"
@@ -82,7 +83,7 @@ export default function Contact() {
           <p className=" text-center md:hidden"> Check my GitHub repositories</p>
         </div>
 
-        <div className=" w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
+        <div className="text-white w-44 h-44  bg-primary bg-opacity-50 flex-col flex items-center justify-around p-3 md:md:w-28 md:h-28 sm:w-12 sm:h-12 sm:rounded-full">
           <a href="mailto:mayssamalsakhen17@gmail.com">
             {" "}
             <Image src={email} alt="email" width={0} height={0} />
@@ -126,8 +127,10 @@ export default function Contact() {
             rows={4}
             className="outline-none placeholder:text-primary p-1 bg-transparent border-primary border-b-[1px] mb-3"
           />
-          <button type="submit" className="bg-primary text-white font-bold w-40 mx-auto py-2">Send</button>
+          <button type="submit" className=" transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 hover:border-2 hover:border-primary hover:text-primary hover:bg-secondary duration-300 
+           bg-primary text-white font-bold w-40 mx-auto py-2">Send</button>
         </form>
+      </div>
       </div>
     </div>
   );

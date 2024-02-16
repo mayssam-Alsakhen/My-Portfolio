@@ -20,7 +20,7 @@ module.exports = {
         "primary" :"#800080",
         "secondary":"#EBE8E7",
         "basic":"#ddbd68",
-        "normal" :'FCEBE7'
+       
       }
     },
   },

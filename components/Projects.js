@@ -1,5 +1,5 @@
 import { useState } from "react";
-  import Link from "next/link"
+import Link from "next/link";
 export default function Projects() {
   const [isHovered, setIsHovered] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -57,67 +57,16 @@ const projects = [
 ]
 
   return (
-    <div className=" my-14">
+    <div className=" my-32 ">
       <h1
         id="projects"
         className="text-center py-3 text-5xl font-bold text-primary"
       >
         Projects
       </h1>
-
-      {/* <div className=" flex flex-wrap justify-around text-black ">
-        
-        <div className=" flex items-center m-4">
-        <a href="https://drive.google.com/file/d/18gTLqI9tFBD89-NaJ4tMIxJ37yYRUJyX/view?usp=sharing" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/m&f.png')] bg-cover bg-center rounded-full z-10 flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
-          <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
-            <p className=" font-bold leading-4">Missed and Found</p>
-            <p className=" text-xs pb-2"> August 2022</p>
-            <p className="w-3/5 sm:text-xs">
-              A Full Stack website built using Nextjs, tailwindCss, Laravel and
-              MySQL
-            </p>
-          </div>
-        </div>
-
-        <div className=" flex items-center m-4">
-         <a href="https://retouch.vercel.app/" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/retouch.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
-          <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
-            <p className=" font-bold leading-4">Retouch</p>
-            <p className=" text-xs pb-2">July 2022</p>
-            <p className="w-3/5 sm:text-xs">
-              {" "}
-              A Front-end website built using Nextjs and tailwindCss
-            </p>
-          </div>
-        </div>
-
-        <div className=" flex items-center m-4">
-        <a href="https://kitchen-tau.vercel.app/" target="_blank" rel="noreferrer" className=" z-10" ><div className="w-32 h-32 bg-[url('../public/oakraft.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
-          <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
-            <p className=" font-bold leading-4">Aokcraft</p>
-            <p className=" text-xs pb-2">June 2022</p>
-            <p className="w-3/5 sm:text-xs">
-              {" "}
-              A Front-end website built using Nextjs and tailwindCss
-            </p>
-          </div>
-        </div>
-
-        <div className=" flex items-center m-4">
-        <a href="https://food-options.vercel.app/" target="_blank" rel="noreferrer" className=" z-10"><div className="w-32 h-32 bg-[url('../public/foodoption.png')] bg-cover bg-center rounded-full flex items-center justify-center mr-[-60px] sm:w-28 sm:h-28 sm:mr-[-46px]"></div></a>
-          <div className="w-[380px] h-32 bg-secondary flex flex-col items-center text-justify rounded-2xl py-2 sm:w-60 sm:h-28 border-2 border-primary">
-            <p className=" font-bold leading-4">Food Options</p>
-            <p className=" text-xs pb-2"> June 2022</p>
-            <p className="w-3/5 sm:text-xs">
-              A Front-end website built using Nextjs and tailwindCss
-            </p>
-          </div>
-        </div>
-      </div> */}
-      
       <div className=" flex flex-wrap justify-around">
       {projects.map((project, index) => 
-      <div key={index} className="my-10 bg-secondary w-[350px] h-[250px] sm:w-[300px] rounded-tr-[40%] rounded-bl-[40%] relative" style={{
+      <div key={index} className="my-10 mx-3 bg-secondary w-[350px] h-[250px] sm:w-[300px] rounded-tr-[40%] rounded-bl-[40%] relative" style={{
         ...container.base,
         ...(hoveredIndex === index && container.hover),
       }}
@@ -144,8 +93,6 @@ const projects = [
 </div>
 )}
 </div>
-
-      {/* <div className="bg-slate-400 w-[500px]  h-[350px] rounded-tr-[40%] rounded-bl-[40%] "></div> */}
     </div>
   );
 }
