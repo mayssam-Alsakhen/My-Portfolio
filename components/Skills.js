@@ -78,7 +78,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="transition ease-in-out delay-150 hover:-translate-y-4 hover:scale-110 duration-300 bg-[url('../public/heart.svg')] bg-cover bg-center w-64 h-72 flex flex-col justify-center items-center"
+            className="transition ease-in-out delay-150 hover:-translate-y-4 hover:scale-110 duration-300  w-64 h-72 flex flex-col justify-center items-center"
           >
             <Image
               src={skill.image}
