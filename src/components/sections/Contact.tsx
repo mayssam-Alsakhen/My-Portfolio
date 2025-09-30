@@ -93,7 +93,7 @@ const ContactSection = () => {
                     <span className="text-2xl">{item.icon}</span>
                     <div>
                       <p className="text-background font-medium">{item.title}</p>
-                      <p className="text-background/70">{item.content}</p>
+                      <p className="text-background/70 wrap-anywhere">{item.content}</p>
                     </div>
                   </motion.div>
                 ))}
