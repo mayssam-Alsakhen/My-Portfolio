@@ -52,7 +52,7 @@ export default function Hero() {
           variants={container}
           className="heading text-4xl sm:text-5xl md:text-6xl leading-tight text-primary"
         >
-          Hello, I'm Maysam <br />
+          Hello, I&apos;m Maysam <br />
           a Full-Stack Developer.
           {/* Building clean, modern web experiences. */}
         </motion.h1>
