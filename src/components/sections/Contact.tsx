@@ -44,11 +44,11 @@ const ContactSection = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-background">
-            Let's Build Something 
+            Let&apos;s Build Something 
             <span className="text-accent"> Amazing</span>
           </h2>
           <p className="text-lg text-background/80 max-w-2xl mx-auto">
-            Ready to turn your ideas into reality? I'm here to help you create 
+            Ready to turn your ideas into reality? I&apos;m here to help you create 
             exceptional digital experiences that stand out.
           </p>
         </motion.div>
