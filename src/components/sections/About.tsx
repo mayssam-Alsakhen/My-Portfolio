@@ -95,7 +95,7 @@ export default function About() {
           className="bg-background text-primary p-6 rounded-2xl shadow-lg"
         >
           <p>
-            I’m a full-stack web developer passionate about creating modern,
+            I’m a full-stack web developer, studied <span className="font-semibold"> Computer Science </span> at the Lebanese International University, passionate about creating modern,
             responsive, and user-friendly digital solutions.
           </p>
         </motion.div>
