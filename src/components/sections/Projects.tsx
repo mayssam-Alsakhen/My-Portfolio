@@ -19,15 +19,15 @@ const projectsData: Project[] = [
     title: "Personal Portfolio",
     description: "A personal portfolio that highlights my work through an engaging design, interactive animations, and a user-friendly experience.",
     technologies: ["Next.js", "TailwindCSS", "Framer Motion", "TypeScript"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://maysamportfolio.vercel.app/",
+    liveUrl: "https://maysamportfolio.vercel.app/",
+    githubUrl: "https://github.com/mayssam-Alsakhen/My-Portfolio",
   },
   {
     id: 2,
     title: "Nextask",
     description: "A collaborative project management tool with multi-user support, task scheduling, and real-time progress tracking. It features secure role-based access, JWT authentication, PDF report generation, interactive charts, and a calendar view for efficient task organization.",
     technologies: ["Next.js", "TailwindCSS", "JWT", "Recharts.js", "FullCalendar", "Laravel", "MySQL", "Dompdf"],
-    liveUrl: "https://github.com/mayssam-Alsakhen/Nextask-frontend",
+    liveUrl: "https://github.com/mayssam-Alsakhen/NexTask_frontend",
     githubUrl: "https://github.com/mayssam-Alsakhen/Nextask-backend",
   },
   {
